@@ -1,3 +1,4 @@
+import Carrusel from './components/Carrusel'
 import Footer from './components/Footer'
 import Form from './components/Form'
 import Navbar from './components/Navbar'
@@ -7,6 +8,7 @@ import TheTeam from './components/TheTeam'
 function App() {
   return (
     <>
+      <Carrusel />
       <Navbar />
       <TheTeam />
       <OurBenefits />
