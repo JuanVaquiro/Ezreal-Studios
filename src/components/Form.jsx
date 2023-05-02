@@ -13,7 +13,8 @@ function Form() {
       <div className="text-center mt-5">
         <BtnPramary />
         <h2 className="text-center text-xl font-medium">
-          ¿QUIERES QUE NOSOTROS TE CONTACTEMOS? SOLO DEBES LLENAR EL SIGUIENTE FORMULARIO:
+          ¿QUIERES QUE NOSOTROS TE CONTACTEMOS? <br />
+          SOLO DEBES LLENAR EL SIGUIENTE FORMULARIO
         </h2>
       </div>
       <form className="p-7 xl:px-60 2xl:px-96">
