@@ -1,5 +1,5 @@
 import BannerTitle from "./BannerTitle"
-import BtnPramary from "./btnPramary"
+import BtnPramary from "./BtnPramary"
 
 function Form() {
   return (
