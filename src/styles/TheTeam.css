@@ -1,0 +1,164 @@
+.container-the-crew {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 162px;
+  background-color: #F5F5F5;
+}
+
+.container-items-the-crew {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #FAFAFA;
+  border-left: 3px solid #FF7E54;
+  border-radius: 20px;
+  flex-direction: column;
+  width: 338px;
+  height: 864px;
+  box-shadow: 7px 16px 8px -3px rgba(0, 0, 0, 0.1);
+}
+
+.items-text {
+  margin-top: -168px;
+  max-width: 700px;
+  padding: 14px;
+}
+
+.title-section span {
+  color: #154E85;
+}
+
+.title-section {
+  font-size: 38px;
+  font-weight: 100;
+  color: #FF7E54;
+}
+
+.items-text p {
+  font-size: 18px;
+  color: #666666;
+}
+
+.item-btn {
+  display: flex;
+  justify-content: center;
+  margin: 24px 0;
+}
+
+.item-img {
+  display: none;
+}
+
+.container-items-the-crew img {
+  width: 318px;
+  height: 348px;
+  border-radius: 30px;
+}
+
+.container-members {
+  text-align: center;
+  background-color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 38px;
+  width: 268px;
+  height: 828px;
+  margin-top: -164px;
+  border-radius: 20px;
+  box-shadow: 7px 16px 8px -3px rgba(0, 0, 0, 0.1);
+}
+
+.members-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 12px;
+}
+
+.members-item-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 12px;
+  border-top: 1px solid #154E85;
+  border-bottom: 1px solid #154E85;
+}
+
+.members-item-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 12px;
+}
+
+.container-members h3 {
+  font-size: 22px;
+  color: #FF7E54;
+  padding: 18px;
+}
+
+.container-members p {
+  font-size: 18px;
+  text-align: center;
+  color: #235286;
+}
+
+
+@media (min-width: 1280px) {
+  .container-items-the-crew {
+    flex-direction: row;
+    width: 1288px;
+    height: 614px;
+  }
+
+  .container-items-the-crew img {
+    width: 514px;
+    height: auto;
+  }
+
+  .item-img {
+    display: block;
+  }
+
+  .container-members {
+    flex-direction: row;
+    width: 914px;
+    height: 268px;
+  }
+
+  .members-item-2 {
+    border-top: 0;
+    border-bottom: 0;
+    border-left: 1px solid #154E85;
+    border-right: 1px solid #154E85;
+  }
+
+}
+
+@media (min-width: 1280px) {
+  .title-section {
+    font-size: 68px;
+  }
+}
+
+@media (min-width: 1536px) {
+  .container-items-the-crew {
+    width: 1354px;
+  }
+
+  .title-section {
+    font-size: 78px;
+  }
+
+  .container-items-the-crew img {
+    width: 618px;
+    height: 484px;
+  }
+}
