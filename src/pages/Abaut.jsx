@@ -11,7 +11,9 @@ function Abaut() {
       <section className="2xl:container flex flex-col items-center text-center mt-12 lg:py-16 lg:px-20 md:py-12 md:px-6 py-9 px">
         <h3 className="text-3xl lg:text-4xl font-bold leading-9 text-gray-800 pb-4">SI NO TIENES EXPERIENCIA...
           <span className="text-[#f89fb2]"> NO IMPORTA!</span></h3>
-        <p className="max-w-prose">Estamos especializados en modelos sin experiencia y por supuesto en modelos top de alta facturación tenemos un area diseñada para dar un seguimiento integral y personalizado a cada una de nuestras modelos</p>
+        <p className="max-w-prose">
+        Estamos especializados en modelos sin experiencia y por supuesto en modelos top de alta facturación tenemos un area diseñada para dar un seguimiento integral y personalizado a cada una de nuestras modelos.
+        </p>
       </section>
       <div className="grid gap-4">
         <div>
