@@ -14,7 +14,7 @@ function OurBenefits() {
           </li>
           <li className="flex gap-2 p-1">
             <Check />
-            Apoyo psicologico
+            Apoyo psicólogico
           </li>
           <li className="flex gap-2 p-1">
             <Check />
@@ -34,7 +34,7 @@ function OurBenefits() {
           </li>
           <li className="flex gap-2 p-1">
             <Check />
-            Cerca del transmilenio, el alimentador te deja a 2 minutos de distancia.
+            Cerca del transmilenio, el alimentador te deja a 2 minutos de distancia
           </li>
           <li className="flex gap-2 p-1">
             <Check />
