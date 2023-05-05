@@ -31,14 +31,15 @@ function TheTeam() {
         <div className='container-members'>
           <div className='members-item'>
             <CalendarCheck />
-            <h3>Pagos siempre <br />a tiempo</h3>
-            <p>Grandes ingresos desde <br />
-              el primer día. Garantizamos <br />
-              ingresos  fijos sin riesgos.</p>
+            <h3>Pagos a tiempo</h3>
+            <p>Desde el primer día, tendrás la<br />
+              oportunidad de obtener ingresos<br />
+              significativos.
+            </p>
           </div>
           <div className='members-item-2'>
             <CurrencyDollar />
-            <h3>Gana en<br />dolares</h3>
+            <h3>Gana en dolares</h3>
             <p>Gana más trabajando<br />
               con nosotros, ya que nuestros<br />
               ingresos son en dólares.
@@ -46,11 +47,11 @@ function TheTeam() {
           </div>
           <div className='members-item-3'>
             <Info />
-            <h3>Soporte y <br /> monitoreo 24/7</h3>
+            <h3>Soporte 24/7</h3>
             <p>
-              ¿sin experiencias?<br />
-              contamos con un equipo <br />
-              dedicado a nuestras modelos</p>
+              ¿Sin experiencias?<br />
+              contamos con un equipo tecnico<br />
+             dedicado a nuestras modelos.</p>
           </div>
         </div>
       </section>
