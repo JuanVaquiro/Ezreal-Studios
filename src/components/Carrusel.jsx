@@ -1,5 +1,6 @@
 import model from '../assets/imgs/modelo3.jpg'
-import model1 from '../assets/imgs/modelo4.jpg'
+import model2 from '../assets/imgs/modelo4.jpg'
+import model3 from '../assets/imgs/modelo6.jpg'
 
 function Carrusel() {
   return (
@@ -11,19 +12,11 @@ function Carrusel() {
         </div>
 
         <div className="hidden duration-700 ease-in-out" data-carousel-item>
-          <img src={model1} className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..." />
+          <img src={model3} className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..." />
         </div>
 
         <div className="hidden duration-700 ease-in-out" data-carousel-item>
-          <img src={model} className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..." />
-        </div>
-
-        <div className="hidden duration-700 ease-in-out" data-carousel-item>
-          <img src={model1} className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..." />
-        </div>
-
-        <div className="hidden duration-700 ease-in-out" data-carousel-item>
-          <img src={model} className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..." />
+          <img src={model2} className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..." />
         </div>
       </div>
 
