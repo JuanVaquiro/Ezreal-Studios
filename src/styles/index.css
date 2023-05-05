@@ -3,5 +3,29 @@
 @tailwind utilities;
 
 body {
-  background-color : #f2e8e3;
+  background-color: #f2e8e3;
+}
+
+.whasa_app-float {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  width: 204px;
+  height: 80px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #40c46c;
+  color: #FFF;
+  z-index: 100;
+}
+
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin-top: 16px;
 }

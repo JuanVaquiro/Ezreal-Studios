@@ -1,3 +1,4 @@
+import BtnFloatWhapp from './components/BtnFloatWhapp'
 import Carrusel from './components/Carrusel'
 import Footer from './components/Footer'
 import Form from './components/Form'
@@ -8,6 +9,7 @@ import TheTeam from './components/TheTeam'
 function App() {
   return (
     <>
+      <BtnFloatWhapp />
       <Carrusel />
       <Navbar />
       <TheTeam />
