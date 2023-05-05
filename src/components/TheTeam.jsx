@@ -1,5 +1,5 @@
 import { CalendarCheck, CurrencyDollar, Info } from '../assets/icon-group'
-import modelo1 from '../assets/imgs/modelo1.jpg'
+import modelo1 from '../assets/imgs/modelo1.png'
 import '../styles/TheTeam.css'
 import BannerTitle from './BannerTitle'
 
@@ -7,7 +7,7 @@ function TheTeam() {
   return (
     <>
       <div className='-mt-52'>
-        <BannerTitle text='MAS DE 6 AÑOS DE EXPERIENCIA' />
+        <BannerTitle text='MAS DE 5 AÑOS DE EXPERIENCIA' />
       </div>
       <section className="container-the-crew">
         <article className="container-items-the-crew">
@@ -17,11 +17,11 @@ function TheTeam() {
               para ti
             </h2>
             <p>
-              Durante años estudiamos las principales quejas de las modelos que hacen parte de esta industria, por eso quisimos cambiar completamente el modelo de trabajo dando prioridad a las modelos que a los números y así nació atlanta studio.
+              Ezreal studios se destaca por ser único en el enfoque hacia nuestras chicas. Después de estudiar las principales quejas de las modelos en la industria durante varios años, decidimos crear un modelo de trabajo completamente nuevo.
             </p>
             <br />
             <p>
-              Un estudio completamente distinto que busca la felicidad y que las modelos puedan cumplir sus sueños anhelos y metas, somos reconocidos y catalogados como uno de los mejores de todo el país atrévete a darnos la oportunidad.
+              En Ezreal Studios, priorizamos el bienestar de las modelos sobre los números, y nuestro objetivo es ayudar a que cumplan sus sueños, aspiraciones y metas. Estamos comprometidos a crear un ambiente feliz y saludable para nuestras modelos. Te invitamos a que nos des la oportunidad de demostrarte lo que podemos hacer por ti.
             </p>
           </div>
           <div className='item-img'>

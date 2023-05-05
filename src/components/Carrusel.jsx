@@ -1,5 +1,5 @@
-import model from '../assets/imgs/modelo.jpg'
-import model1 from '../assets/imgs/modelo1.jpg'
+import model from '../assets/imgs/modelo3.jpg'
+import model1 from '../assets/imgs/modelo4.jpg'
 
 function Carrusel() {
   return (
@@ -28,9 +28,9 @@ function Carrusel() {
       </div>
 
       <div className='relative z-20 -top-56 lg:-top-96 text-center'>
-        <h1 className="text-4xl lg:text-7xl font-bold text-gray-900 p-4">Ezreal Studio Bogotá</h1>
-        <h3 className="text-sm lg:text-2xl font-medium text-gray-900 p-4">¿QUIERES SER LA MEJOR MODELO WEB CAM?</h3>
-        <button type="button" className="text-white bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">
+        <h1 className="text-4xl lg:text-7xl font-bold text-gray-50  p-4">Ezreal Studios Bogotá</h1>
+        <h3 className="text-sm lg:text-2xl font-medium text-gray-50  p-4">¿QUIERES SER LA MEJOR MODELO WEB CAM?</h3>
+        <button type="button" className="text-white bg-gradient-to-br from-pink-500 to-[#f5b2c1] hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-pink-200 dark:focus:ring-pink-600 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">
         DA CLCIK AQUI
         </button>
       </div>

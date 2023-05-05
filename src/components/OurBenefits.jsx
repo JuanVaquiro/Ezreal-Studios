@@ -1,5 +1,5 @@
 import BannerTitle from "./BannerTitle"
-import model from '../assets/imgs/modelo.jpg'
+import model from '../assets/imgs/modelo2.jpg'
 import { Check } from "../assets/icon-group"
 
 function OurBenefits() {
@@ -34,11 +34,7 @@ function OurBenefits() {
           </li>
           <li className="flex gap-2 p-1">
             <Check />
-            Cerca a transmilenio
-          </li>
-          <li className="flex gap-2 p-1">
-            <Check />
-            Estamos ubicados en un barrio muy seguro
+            Cerca del transmilenio, el alimentador te deja a 2 minutos de distancia.
           </li>
           <li className="flex gap-2 p-1">
             <Check />
@@ -46,11 +42,7 @@ function OurBenefits() {
           </li>
           <li className="flex gap-2 p-1">
             <Check />
-            Mas de 6 años de experiencia
-          </li>
-          <li className="flex gap-2 p-1">
-            <Check />
-            Somos un studio 100% legal
+            Mas de 5 años de experiencia
           </li>
           <li className="flex gap-2 p-1">
             <Check />
@@ -58,7 +50,7 @@ function OurBenefits() {
           </li>
         </ul>
         <div>
-          <img className="w-80" src={model} alt="foto-modelo-webcam" />
+          <img className="w-72 rounded-2xl drop-shadow-lg" src={model} alt="foto-modelo-webcam" />
         </div>
       </div>
     </section>

@@ -4,7 +4,7 @@
   align-items: center;
   justify-content: center;
   padding: 64px;
-  background-color: #F5F5F5;
+  background-color: #f2e8e3;
 }
 
 .container-items-the-crew {
@@ -12,7 +12,7 @@
   align-items: center;
   justify-content: space-evenly;
   background-color: #FAFAFA;
-  border-left: 3px solid #2a397d;
+  border-left: 3px solid #f9d7e2;
   border-radius: 20px;
   flex-direction: column;
   width: 338px;
@@ -27,13 +27,13 @@
 }
 
 .title-section span {
-  color: #2a397d;
+  color:  #595959;
 }
 
 .title-section {
   font-size: 38px;
   font-weight: 400;
-  color: #25baf0;
+  color: #f5b2c1;
 }
 
 .items-text p {
@@ -85,8 +85,8 @@
   align-items: center;
   justify-content: center;
   padding: 12px;
-  border-top: 1px solid #2a397d;
-  border-bottom: 1px solid #2a397d;
+  border-top: 1px solid #f9d7e2;
+  border-bottom: 1px solid #f9d7e2;
 }
 
 .members-item-3 {
@@ -99,8 +99,8 @@
 
 .container-members h3 {
   font-size: 22px;
-  font-weight: 600;
-  color: #2a397d;
+  font-weight: 700;
+  color: #595959;
   padding: 18px;
 }
 
@@ -135,8 +135,8 @@
   .members-item-2 {
     border-top: 0;
     border-bottom: 0;
-    border-left: 1px solid #2a397d;
-    border-right: 1px solid #2a397d;
+    border-left: 1px solid #f9d7e2;
+    border-right: 1px solid #f9d7e2;
   }
 
 }
