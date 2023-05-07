@@ -14,7 +14,7 @@ function OurBenefits() {
           </li>
           <li className="flex gap-2 p-1">
             <Check />
-            Apoyo psicólogico
+            Apoyo psicológico
           </li>
           <li className="flex gap-2 p-1">
             <Check />
