@@ -12,7 +12,7 @@ function Form() {
       </div>
       <div className="text-center mt-5">
         <BtnPramary />
-        <h2 className="text-center text-xl font-medium">
+        <h2 className="text-center text-xl text-[#g595959] font-medium">
           ¿QUIERES QUE NOSOTROS TE CONTACTEMOS? <br />
           SOLO DEBES LLENAR EL SIGUIENTE FORMULARIO
         </h2>
