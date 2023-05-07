@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import model from '../assets/imgs/modelo3.jpg'
 import model2 from '../assets/imgs/modelo4.jpg'
 import model3 from '../assets/imgs/modelo6.jpg'
@@ -23,9 +24,9 @@ function Carrusel() {
       <div className='relative z-20 -top-44 lg:-top-96 text-center'>
         <h1 className="text-3xl p-2 font-bold lg:text-gray-50 lg:text-7xl lg:p-4">Ezreal Studios Bogotá</h1>
         <h3 className="text-sm p-2 font-medium lg:text-gray-50 lg:text-2xl lg:p-4">¿QUIERES SER LA MEJOR MODELO WEB CAM?</h3>
-        <button type="button" className="text-white bg-gradient-to-br from-pink-500 to-[#f5b2c1] hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-pink-200 dark:focus:ring-pink-600 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">
+        <Link to="/contact" type="button" className="text-white bg-gradient-to-br from-pink-500 to-[#f5b2c1] hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-pink-200 dark:focus:ring-pink-600 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">
           DA CLCIK AQUI
-        </button>
+        </Link>
       </div>
       <div className="absolute z-30 h-2/5 lg:h-3/6 flex lg:top-[468px] space-x-3 -translate-x-1/2 bottom-5 left-1/2">
         <button type="button" className="w-3 h-3 rounded-full" aria-current="true" aria-label="Slide 1" data-carousel-slide-to="0"></button>
