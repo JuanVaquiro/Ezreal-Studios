@@ -20,9 +20,9 @@ function Carrusel() {
         </div>
       </div>
 
-      <div className='relative z-20 -top-56 lg:-top-96 text-center'>
-        <h1 className="text-4xl lg:text-7xl font-bold text-gray-50  p-4">Ezreal Studios Bogotá</h1>
-        <h3 className="text-sm lg:text-2xl font-medium text-gray-50  p-4">¿QUIERES SER LA MEJOR MODELO WEB CAM?</h3>
+      <div className='relative z-20 -top-44 lg:-top-96 text-center'>
+        <h1 className="text-3xl p-2 font-bold lg:text-gray-50 lg:text-7xl lg:p-4">Ezreal Studios Bogotá</h1>
+        <h3 className="text-sm p-2 font-medium lg:text-gray-50 lg:text-2xl lg:p-4">¿QUIERES SER LA MEJOR MODELO WEB CAM?</h3>
         <button type="button" className="text-white bg-gradient-to-br from-pink-500 to-[#f5b2c1] hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-pink-200 dark:focus:ring-pink-600 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">
           DA CLCIK AQUI
         </button>

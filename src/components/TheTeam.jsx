@@ -6,7 +6,7 @@ import BannerTitle from './BannerTitle'
 function TheTeam() {
   return (
     <>
-      <div className='-mt-52'>
+      <div className='-mt-32 lg:-mt-52'>
         <BannerTitle text='MAS DE 5 AÑOS DE EXPERIENCIA' />
       </div>
       <section className="container-the-crew">
