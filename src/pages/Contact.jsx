@@ -9,7 +9,9 @@ function Contact() {
     <>
       <BtnFloatWhapp />
       <Navbar />
-      <OurBenefits />
+      <div className="mt-24">
+        <OurBenefits />
+      </div>
       <Form />
       <Footer />
     </>
