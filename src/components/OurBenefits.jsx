@@ -1,11 +1,9 @@
-import BannerTitle from "./BannerTitle"
 import model from '../assets/imgs/modelo2.jpg'
 import { Check } from "../assets/icon-group"
 
 function OurBenefits() {
   return (
     <section>
-      <BannerTitle text={'NUESTROS BENEFICIOS'} />
       <div className="flex p-4 items-center flex-col-reverse lg:flex-row lg:justify-around">
         <ul className="p-4 lg:p-2 text-base lg:text-lg">
           <li className="flex gap-2 p-1">
