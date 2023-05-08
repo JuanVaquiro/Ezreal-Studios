@@ -38,7 +38,7 @@ function OurBenefits() {
           </li>
           <li className="flex gap-2 p-1">
             <Check />
-            Disfrutamos de un excelente lugar, perfectamente acojedor
+            Contamos con un excelente lugar, perfectamente acogedor
           </li>
           <li className="flex gap-2 p-1">
             <Check />
