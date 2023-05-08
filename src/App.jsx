@@ -14,6 +14,7 @@ function App() {
       <Carrusel />
       <Navbar />
       <TheTeam />
+      <BannerTitle text={'NUESTROS BENEFICIOS'} />
       <OurBenefits />
       <BannerTitle text={'¡TU PRIVACIDAD ES NUESTRA RESPONSABILIDAD!'} />
       <Form />
