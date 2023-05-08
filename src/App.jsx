@@ -1,3 +1,4 @@
+import BannerTitle from './components/BannerTitle'
 import BtnFloatWhapp from './components/BtnFloatWhapp'
 import Carrusel from './components/Carrusel'
 import Footer from './components/Footer'
@@ -14,6 +15,7 @@ function App() {
       <Navbar />
       <TheTeam />
       <OurBenefits />
+      <BannerTitle text={'¡TU PRIVACIDAD ES NUESTRA RESPONSABILIDAD!'} />
       <Form />
       <Footer />
     </>
