@@ -1,24 +1,10 @@
 import { useState, useRef } from 'react';
-import emailjs from '@emailjs/browser';
 import BtnPramary from "./BtnPramary"
 
 function Form() {
   const [name, setName] = useState('')
   const [tel, setTel] = useState('')
   const form = useRef();
-  const sendEmail = (e) => {
-    e.preventDefault()
-
-    emailjs.sendForm('service_2h9vg1i' , 'template_2ae2epo', form.current, 'lesVR1BWQwRBBjed3')
-      .then((result) => {
-        console.log("El correo electrónico se envió con éxito", result.text)
-      }, (error) => {
-        console.log('Error al enviar el correo electrónico', error.text)
-      })
-
-    setName('')
-    setTel('')
-  }
 
   return (
     <section className="bg-[#f2e8e3]">
@@ -35,8 +21,8 @@ function Form() {
         </h2>
       </div>
       <form
+        action="https://formsubmit.co/aae7216395b60b084768d25a1d5d3b3c" method="POST"
         ref={form}
-        onSubmit={sendEmail}
         className="p-7 xl:px-60 2xl:px-96"
       >
         <div className="mb-6">
@@ -45,7 +31,7 @@ function Form() {
           </label>
           <input
             type="text"
-            name="user_name"
+            name="name"
             value={name}
             onChange={(event) => setName(event.target.value)}
             className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-pink-500 focus:border-pink-500 block w-full p-2.5"
@@ -59,7 +45,7 @@ function Form() {
           </label>
           <input
             type="number"
-            name="message"
+            name="tel"
             value={tel}
             onChange={(event) => setTel(event.target.value)}
             className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-pink-500 focus:border-pink-500 block w-full p-2.5"
