@@ -1,7 +1,6 @@
 import { useState, useRef } from 'react'
 import Swal from 'sweetalert2'
 import emailjs from '@emailjs/browser'
-import BannerTitle from "./BannerTitle"
 import BtnPramary from "./BtnPramary"
 
 function Form() {
@@ -40,7 +39,6 @@ function Form() {
 
   return (
     <section className="bg-[#f2e8e3]">
-      <BannerTitle text={'¡TU PRIVACIDAD ES NUESTRA RESPONSABILIDAD!'} />
       <div className="flex items-center justify-center">
         <p className="mt-7 p-4 max-w-[75ch] text-center text-base lg:text-lg">
           Contamos con un equipo de soporte y tecnología que te permitirá bloquear tu localidad, ciudad y país durante las transmisiones. Nos esforzamos por proteger tu privacidad y garantizamos que nadie sabrá lo que haces si no lo deseas.
