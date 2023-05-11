@@ -1,30 +1,21 @@
 import BtnFloatWhapp from "../components/BtnFloatWhapp"
 import Footer from "../components/Footer"
 import Navbar from "../components/Navbar"
-import Modelo3 from "./../assets/imgs/modelo3.jpg"
 
 function Abaut() {
   return (
     <>
       <Navbar />
       <BtnFloatWhapp />
-      <section className="2xl:container flex flex-col items-center text-center mt-12 lg:py-16 lg:px-20 md:py-12 md:px-6 py-9 px">
+      <section className="2xl:container flex flex-col items-center text-center mt-20 lg:mt-12 lg:py-16 lg:px-20 md:py-12 md:px-6 py-9 px">
         <h3 className="text-3xl lg:text-4xl font-bold leading-9 text-[#595959] pb-4">SI NO TIENES EXPERIENCIA...
           <span className="text-[#f89fb2]"> NO IMPORTA!</span></h3>
         <p className="max-w-prose">
           Estamos especializados en modelos sin experiencia y por supuesto en modelos top de alta facturación tenemos un area diseñada para dar un seguimiento integral y personalizado a cada una de nuestras modelos.
         </p>
       </section>
-      <div className="grid gap-4">
-        <div>
-          <img className="h-[548px] w-full rounded-lg"
-            src={Modelo3}
-            alt="modelo-webcam"
-          />
-        </div>
-      </div>
       <div className="2xl:container 2xl:mx-auto lg:py-16 lg:px-20 md:py-12 md:px-6 py-9 px-4">
-        <div className="flex flex-col items-center text-center gap-8 pt-12">
+        <div className="flex flex-col items-center text-center gap-8">
           <div className="w-full lg:w-5/12 flex flex-col justify-center">
             <h2 className="text-3xl lg:text-4xl font-bold leading-9 text-[#595959] pb-4">NUESTRAS VENTAJAS</h2>
             <p className="font-normal text-base leading-6 text-gray-600 ">Lo que nos hace especiales</p>
