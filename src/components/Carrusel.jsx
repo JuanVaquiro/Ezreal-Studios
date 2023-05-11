@@ -5,10 +5,10 @@ import model from '../assets/imgs/modelo4.jpg'
 function Carrusel() {
   return (
     <main className="relative w-full mt-16" >
-      <div className="relative h-56 overflow-hidden rounded-lg md:h-[534px]">
+      <div className="relative h-56 overflow-hidden rounded-lg md:h-[612px]">
         <img
           src={model}
-          className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+          className="absolute block w-full h-full object-cover"
           alt="foto-model-profesional"
         />
       </div>
