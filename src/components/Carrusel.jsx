@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import model from '../assets/imgs/modelo3.jpg'
+import model from '../assets/imgs/modelo4.jpg'
 
 
 function Carrusel() {
