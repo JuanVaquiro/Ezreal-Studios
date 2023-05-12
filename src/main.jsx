@@ -1,12 +1,11 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import { useRoutes, BrowserRouter } from 'react-router-dom'
+import { useRoutes, HashRouter } from 'react-router-dom'
 import App from './App.jsx'
 import Abaut from './pages/Abaut.jsx'
 import Contact from './pages/Contact.jsx'
 import NotFound from './pages/NotFound.jsx'
 import './styles/index.css'
-
 
 const AppRouters = () => {
   let routes = useRoutes([
@@ -32,8 +31,8 @@ const AppRouters = () => {
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <BrowserRouter>
+    <HashRouter>
       <AppRouters />
-    </BrowserRouter>
+    </HashRouter>
   </React.StrictMode>,
 )
