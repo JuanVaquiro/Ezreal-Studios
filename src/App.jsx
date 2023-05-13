@@ -1,3 +1,4 @@
+import { Analytics } from '@vercel/analytics/react'
 import BannerTitle from './components/BannerTitle'
 import BtnFloatWhapp from './components/BtnFloatWhapp'
 import Carrusel from './components/Carrusel'
@@ -19,6 +20,7 @@ function App() {
       <BannerTitle text={'¡TU PRIVACIDAD ES NUESTRA RESPONSABILIDAD!'} />
       <Form />
       <Footer />
+      <Analytics />
     </>
   )
 }
